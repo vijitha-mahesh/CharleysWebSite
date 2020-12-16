@@ -149,6 +149,7 @@ body{
   background-size: cover;  
 }
  
+
 @media all and (min-width: 992px) {
   .navbar .nav-item .dropdown-menu{ font-size: 18px; }
 	.navbar .nav-item .dropdown-menu{ display: none; }
@@ -161,6 +162,25 @@ body{
     backface-visibility: 0.5;
   }
 }
+
+
+.cityrewerdslogo{
+  height: 12rem;
+  width: 24rem;
+  border-radius: 15px;
+}
+
+
+.footerhr{
+  height:2px;
+  border-width:0;
+  width: 10rem;
+  color:#ebebeb;
+  background-color:#ebebeb;
+  
+}
+
+
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
