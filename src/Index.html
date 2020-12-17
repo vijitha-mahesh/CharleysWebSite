@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Food Order System</title>
+  <title>CHARLEYS | HOME</title>
+  <link rel="icon" href="../assets/title.png" >
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -16,12 +19,19 @@
 
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"
     integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-  <!--navigation bar-->
+
+
+
   <div class="container-fluid divbg" style="background-color: #ebebeb;">
     <p></p>
   </div>
+
+  <!--navigation bar-->
+
   <nav class="navbar navbar-light navbar-expand-md justify-content-md-center justify-content-start sticky-top"
     style="background-color: #ebebeb; padding: 1%;">
 
@@ -32,31 +42,32 @@
         class="logo navbar-brand"></a>
     <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
 
-      <ul class="navbar-nav mx-auto text-md-center text-left" style="padding-left: 2%;">
+      <ul class="navbar-nav mx-auto text-md-center text-left">
         <li class="nav-item">
           <a class="nav-link" href="#">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">OUR STORES</a>
+          <a class="nav-link" href="ourstores.html">OUR STORES</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link" href="#" data-toggle="dropdown"> MENU </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#"> UAE MENU</a></li>
-            <li><a class="dropdown-item" href="#"> KSA MENU </a></li>
-            <li><a class="dropdown-item" href="#"> OMAN MENU </a></li>
-            <li><a class="dropdown-item" href="#"> IBN BATTUTA MALL </a></li>
+            <li><a class="dropdown-item" href="../assets/charleys-uaemenu-2020-b.pdf"> UAE MENU</a></li>
+            <li><a class="dropdown-item" href="../assets/charleys-ksamenu.pdf"> KSA MENU </a></li>
+            <li><a class="dropdown-item" href="../assets/charleys-omanmenu.pdf"> OMAN MENU </a></li>
+            <li><a class="dropdown-item" href="../assets/charleys-ibnmenu-2020-b.pdf"> IBN BATTUTA MALL </a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">FRANCHISE</a>
+          <a class="nav-link" href="franchise.html">FRANCHISE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ABOUT US</a>
+          <a class="nav-link" href="../src/aboutus.html">ABOUT US</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CONTACT US</a>
+          <a class="nav-link" href="contactus.html">CONTACT US</a>
         </li>
+
       </ul>
       <ul class="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
         <li class="nav-item"><a class="nav-link" href=""><img src="../assets/fbicon.png"></a> </li>
@@ -65,7 +76,10 @@
       </ul>
     </div>
   </nav>
+
+
   <!--Carousel-->
+
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -80,7 +94,7 @@
             <div class="row">
               <div class="col-md-12 col-sm-12  text-white font-weight-bold">
                 <button class="btn btn-light px-5 py-4 badge-dark btn-lg btn">
-                  ORDER FOOD
+                  ORDER ONLINE
                 </button>
               </div>
             </div>
@@ -94,7 +108,7 @@
             <div class="row">
               <div class="col-md-12 col-sm-12  text-white font-weight-bold">
                 <button class="btn btn-light px-5 py-4 badge-dark btn-lg btn">
-                  ORDER FOOD
+                  ORDER ONLINE
                 </button>
               </div>
             </div>
@@ -108,7 +122,7 @@
             <div class="row">
               <div class="col-md-12 col-sm-12  text-white font-weight-bold">
                 <button class="btn btn-light px-5 py-4 badge-dark btn-lg btn">
-                  ORDER FOOD
+                  ORDER ONLINE
                 </button>
               </div>
             </div>
@@ -125,10 +139,16 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+
+
+
+  <!--Our story-->
   <div class="container-fluid divbg">
-    <h1 class="display-4" style="padding: 4%; font-weight: bolder;color: #ebebeb;">HUNGRY? GRAB A BITE, ORDER ONLINE
+    <h1 class="display-4" style="padding: 4%; font-weight: bolder;color: #ebebeb;">HUNGRY? GRTAB A BITE, ORDER ONLINE
     </h1>
+
   </div>
+
   <div class="container-fluid paddig" style="padding-top:1cm; padding-bottom: 2cm;">
     <div class="row welcome text-center">
       <div class="col-12">
@@ -145,146 +165,151 @@
       </div>
     </div>
   </div>
+
   <div class="row">
-    <div class="container-fluid col-md-4 col-sm-6 col-xs-12 align-content-center">
-      <video width="600" height="450" controls autoplay muted>
+    <video class="col-md-4 col-lg-4 col-sm-12 embed-responsive" width="600" height="450" controls autoplay muted>
         <source src="../assets/stayhome.mp4" type="video/mp4">
         <source src="movie.ogg" type="video/ogg">
         Your browser does not support the video tag.
       </video>
+
+    <div class="col-md embed-responsive align-content-center">
+        <img src="../assets/banner.png" style="padding-left: 20%;">
     </div>
-    <div class="container-fluid col-md-3 col-sm-6 col-xs-12 align-content-center">
-      <div class="row welcome text-center">
+    <div class="col-md embed-responsive carousel slide align-self-lg-center align-self-md-center"
+        ata-ride="carousel" id="carouselExampleIndicators">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="../assets/cps-ads1-1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="../assets/CPS-Promotion-02.jpg" alt="Second slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+  <div class="container-fluid paddig promotion-bg" style="padding-top:1cm; padding-bottom: 2cm; color:#ebebeb">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12">
         <div class="col-12">
           <br>
           <br>
           <br>
           <br>
-          <h2 class="lead font-weight-bolder" style="padding-left: 25%; padding-right: 25%; color: #da383f;">
-            DOWNLOAD <a href="https://www.cityrewardz.com">CITYREWARDZ</a> TO JOIN OUR LOYALTY PROGRAM
-          </h2>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid col-md-4 col-sm-6 col-xs-12 align-content-center promotiondiv">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="../assets/cps-ads1-1.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../assets/CPS-Promotion-02.jpg" alt="Second slide">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid paddig" style="padding-top:1cm; padding-bottom: 2cm;">
-    <div class="row welcome text-center">
-      <div class="col-12">
-        <h1 class="display-4 font-weight-bold">SPECIAL PRMOTION</h1>
-      </div>
-      <hr />
-      <div class="col-12">
-        <p class="lead" style="padding-left: 25%; padding-right: 25%;">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem alias perspiciatis omnis quod
-          possimus odit
-          voluptatum! Sunt ea quasi praesentium, tenetur doloribus animi obcaecati, sint nemo quae laudantium iusto unde
-          eaque nostrum nobis voluptatum
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid paddig" style="padding-top:1cm; padding-bottom: 2cm;">
-    <div class="row welcome text-center">
-      <div class="col-12">
-        <h1 class="display-4 font-weight-bold">HUNGRY?</h1>
-      </div>
-      <hr />
-      <div class="col-12">
-        <button class="btn btn-light px-5 py-4 badge-dark btn-lg btn">
-          ORDER FOOD
-        </button>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid divbg2" style="padding-bottom: 1px;">
-    <div>
-      <div class="row" style="padding-top:20%;">
-        <div class="col-md-6 col-sm-6 col-xs-12 container-fluid">
-          <div class="container-fluid paddig">
-            <div class="row welcome text-center">
-              <div class="col-12">
-                <h1 class="display-4 font-weight-bold" style="color: #ebebeb;">SERVING YOU EVERYDAY</h1>
-                <br>
-                <h3 class="font-weight-bold" style="color: #ebebeb;">WE ARE OPEN FROM 7.30 AM TO 11.30 PM</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-6 col-xs-12 container-fluid align-middle">
-          <div class="container-fluid ">
-            <div class="row text-center">
-              <div class="col-12">
-                <h1 class="display-4 font-weight-bold" style="color: #ebebeb;">DOWNLOAD OUR APP</h1>
-                <br>
-                <h4 class=" font-weight-bold" style="color: #ebebeb;">Order online any time, anywhere with ease, use our
-                  Charleys app now.</h4>
-                <a href=""><img src="../assets/h1-img-5.png" style="padding-right: 5%;"></a>
-                <a href=""><img src="../assets/h1-img-6.png" style="padding-right: 5%;"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Footer -->
-  <footer class="page-footer font-small" style="background-color: #da383f; color: white;">
-    <div class="container text-md-left mt-5">
-      <div class="row mt-3">
-        <div class="col-9">
-
-          <h6 class="text-uppercase font-weight-bold">VISIT US</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            Loren Ipsum,</p>
-          <p>
-            Industry standard xyz</p>
-          <p>
-            TEL : 99948879346</p>
-          <p>
-            EMAIL : abcd@gmail.com
+          <h1 class="display-4 font-weight-bold" style="text-align: center; padding-right: 10%;">SPECIAL PROMOTION</h1>
+          <p class="lead" style="font-weight: bold; text-align: center;">
+            Get 30 % off on your 3 first online orders when you place an order through our website or City
+            Rewardz!<br>
+            (valid for Delivery & Takeaway)
           </p>
         </div>
-        <div class="col-3">
-          <img src="../assets/loyltylogo.png" class="cityrewerdslogo">
+      </div>
+      <div class="col-lg-6 col-md-6 overflow-hidden ">
+          <img src="../assets/specialpromo.png" style="height:50%; padding-left: 17%; ">        
+      </div>
+    </div>
+  </div>
+    <!--Button hungry-->
+    <div class="container-fluid paddig" style="padding-top:1cm; padding-bottom: 2cm;">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4 font-weight-bold">HUNGRY?</h1>
+        </div>
+        <hr />
+        <div class="col-12">
+          <button class="btn btn-light px-5 py-4 badge-dark btn-lg btn">
+            ORDER ONLINE
+          </button>
         </div>
       </div>
     </div>
+
+
+    <div class="container-fluid divbg2" style="padding-bottom: 1px;">
+
+      <div>
+
+        <div class="row" style="padding-top:20%;">
+
+          <div class="col-md-6 col-sm-6 col-xs-12 container-fluid">
+            <div class="container-fluid paddig">
+              <div class="row welcome text-center">
+                <div class="col-12">
+                  <h1 class="display-4 font-weight-bold" style="color: #ebebeb;">SERVING YOU EVERYDAY</h1>
+                  <br>
+                  <h3 class="font-weight-bold" style="color: #ebebeb;">WE ARE OPEN FROM 7.30 AM TO 11.30 PM</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12 container-fluid align-middle">
+            <div class="container-fluid ">
+              <div class="row text-center">
+                <div class="col-12">
+
+                  <h1 class="display-4 font-weight-bold" style="color: #ebebeb;">DOWNLOAD OUR APP</h1>
+
+                  <br>
+                  <h4 class=" font-weight-bold" style="color: #ebebeb;">Order online any time, anywhere with ease, use
+                    our
+                    Charleys app now.</h4>
+                  <img src="../assets/h1-img-5.png" style="padding-right: 5%;">
+                  <img src="../assets/h1-img-6.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="footer-copyright text-center py-3 bg-dark text-white">© 2020 By E-visionlab Sri Lanka</div>
-  </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <script src="./main.js"></script>
+    <!-- Footer -->
+
+    <footer class="page-footer font-small" style="background-color: #da383f; color: white;">
+      <div class="container text-md-left mt-5">
+        <div class="row mt-3">
+          <div class="col-9">
+
+            <h6 class="text-uppercase font-weight-bold">VISIT US</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              Loren Ipsum,</p>
+            <p>
+              Industry standard xyz</p>
+            <p>
+              TEL : 99948879346</p>
+            <p>
+              EMAIL : abcd@gmail.com
+            </p>
+          </div>
+          <div class="col-md-3 col-sm-12 col-lg-3">
+            <img src="../assets/loyltylogo.png" class="cityrewerdslogo">
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center py-3 bg-dark text-white">© 2020 Developed By</div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
 </body>
+
 </html>

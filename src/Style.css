@@ -148,8 +148,30 @@ body{
   background-repeat: no-repeat;
   background-size: cover;  
 }
- 
 
+
+.divbg3{
+  /* The image used */
+  background-image: url("../assets/charleys_mobile_app_bg4.jpg");
+
+  /* Full height */
+  height: 100%; 
+  color:white;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+.divbg4{
+  /* The image used */
+  background-image: url("../assets/cityRewarsBanner.jpg");
+  background-repeat: no-repeat;
+  height:40rem ;
+  width:10rem ;
+  /* Full height */
+   /* Center and scale the image nicely */
+}
+ 
 @media all and (min-width: 992px) {
   .navbar .nav-item .dropdown-menu{ font-size: 18px; }
 	.navbar .nav-item .dropdown-menu{ display: none; }
@@ -163,25 +185,49 @@ body{
   }
 }
 
-
-.cityrewerdslogo{
-  height: 12rem;
-  width: 24rem;
-  border-radius: 15px;
+.fixed-bg {
+  background-image: url("../assets/charleys_mobile_app_bg4.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
 
-.footerhr{
-  height:2px;
-  border-width:0;
-  width: 10rem;
-  color:#ebebeb;
-  background-color:#ebebeb;
-  
+.footer-bg {
+  background-image: url("../assets/uae-footer-background.png");
+  min-height: 350px;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.ft{
+  background-color:#464646;
+  text-align: left;
+}
+
+.fixbtn{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 60px;
+  height: 10%;
 }
 
 
-
+.promotion-bg {
+  background-image: url("../assets/promotionbg.jpg");
+  min-height: 30px;
+  max-height: 30rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
@@ -199,10 +245,103 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
 
+section-3 {
+  height: 70vmin;
+  margin-top: 15vmin;
+  background: var(--bggradient);
+}
+
+.section-3 .col-md-12 > h1 {
+  padding: 2em 0 0.5em 0;
+  color: whitesmoke;
+  font-size: 6vmin;
+}
+
+.section-3 .col-md-12 > p {
+  padding: 0 4em;
+  padding-bottom: 2em;
+  color: var(--light-gray);
+  font-size: 3vmin;
+}
+
+.section-3 .desktop {
+  background: white;
+  display: inline-block;
+  border-radius: 3em;
+  padding: 2vmin 4.5vmin;
+  margin: 1em;
+}
+
+.section-3 .desktop h3 {
+  font-size: 4vmin;
+}
+
+.section-3 .desktop p {
+  font-size: 2vmin;
+}
 
 
 
+input[type=text], select ,textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]{
+  width: 25%;
+  background-color: #da383f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #333333;
+}
+
+.fdiv {
+  border-radius: 5px;
+  padding: 20px;
+}
 
 
 
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
 
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+.cityrewerdslogo{
+  height: 12rem;
+  width: 24rem;
+  border-radius: 15px;
+  }
