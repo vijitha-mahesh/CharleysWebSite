@@ -1,6 +1,9 @@
-# Books-bootstrap-website
-In this project, we had created a complete books website.
+<h1>Charleys Food Order System Frontend<h1>
+<p this project, we had created a frontend for the system as separate compnennts but linked together</p>
 
-Top Open this website just go to src and open Index.html file.
-That's it.
-Enjoy...!
+<p>technology used : </p>
+<p>HTML</p>
+<p>CSS</p>
+<p>Bootstrap</p>
+<p>JavaScript</p>
+<p> Open this website just go to src and open Index.html file.</p>
