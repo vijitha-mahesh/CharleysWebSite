@@ -1,5 +1,7 @@
 <h1>Charleys Food Order System Frontend<h1>
-![Alt Text](CharleysWebSite/1609674735177.gif)  
+
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+
 <p this project, we had created a frontend for the system as separate compnennts but linked together</p>
 
 <p>technology used : </p>
